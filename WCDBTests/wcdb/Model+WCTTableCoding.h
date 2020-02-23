@@ -14,5 +14,8 @@
 WCDB_PROPERTY(id)
 WCDB_PROPERTY(name)
 WCDB_PROPERTY(age)
+WCDB_PROPERTY(status)
+WCDB_PROPERTY(updatedTime)
+WCDB_PROPERTY(createdTime)
 
 @end

@@ -13,5 +13,8 @@
 @property(nonatomic, retain) NSString *id;
 @property(nonatomic, retain) NSString *name;
 @property(nonatomic, assign) NSInteger age;
+@property(nonatomic, retain) NSString *status;
+@property(nonatomic, retain) NSString *updatedTime;
+@property(nonatomic, retain) NSString *createdTime;
 
 @end

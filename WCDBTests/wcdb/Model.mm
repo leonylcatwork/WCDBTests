@@ -17,6 +17,9 @@ WCDB_IMPLEMENTATION(Model)
 WCDB_SYNTHESIZE_COLUMN_DEFAULT(Model, id, "_id", NULL)
 WCDB_SYNTHESIZE_COLUMN_DEFAULT(Model, name, "_name", NULL)
 WCDB_SYNTHESIZE_COLUMN_DEFAULT(Model, age, "_age", 0)
+WCDB_SYNTHESIZE_COLUMN_DEFAULT(Model, status, "_status", NULL)
+WCDB_SYNTHESIZE_COLUMN_DEFAULT(Model, updatedTime, "_updated_time", NULL)
+WCDB_SYNTHESIZE_COLUMN_DEFAULT(Model, createdTime, "_created_time", NULL)
 
 WCDB_PRIMARY(Model, id)
   

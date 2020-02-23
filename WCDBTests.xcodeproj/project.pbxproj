@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350429C72402A16000A31EC9 /* AnyStatement.mm in Sources */ = {isa = PBXBuildFile; fileRef = 350429C52402A15F00A31EC9 /* AnyStatement.mm */; };
 		3588943523EA04F500C8F22A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3588943423EA04F500C8F22A /* AppDelegate.m */; };
 		3588943823EA04F500C8F22A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3588943723EA04F500C8F22A /* SceneDelegate.m */; };
 		3588943B23EA04F500C8F22A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3588943A23EA04F500C8F22A /* ViewController.m */; };
@@ -41,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		1B687DFF6E571A73950489FA /* Pods-WCDBTestsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WCDBTestsTests.debug.xcconfig"; path = "Target Support Files/Pods-WCDBTestsTests/Pods-WCDBTestsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		350429C52402A15F00A31EC9 /* AnyStatement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AnyStatement.mm; sourceTree = "<group>"; };
+		350429C62402A15F00A31EC9 /* AnyStatement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnyStatement.h; sourceTree = "<group>"; };
 		3588943023EA04F500C8F22A /* WCDBTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WCDBTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3588943323EA04F500C8F22A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3588943423EA04F500C8F22A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -169,6 +172,8 @@
 		3588946923EA062200C8F22A /* wcdb */ = {
 			isa = PBXGroup;
 			children = (
+				350429C62402A15F00A31EC9 /* AnyStatement.h */,
+				350429C52402A15F00A31EC9 /* AnyStatement.mm */,
 				3588946C23EA063800C8F22A /* Model.h */,
 				3588946A23EA063800C8F22A /* Model.mm */,
 				3588946B23EA063800C8F22A /* Model+WCTTableCoding.h */,
@@ -404,6 +409,7 @@
 			files = (
 				3588943B23EA04F500C8F22A /* ViewController.m in Sources */,
 				3588943523EA04F500C8F22A /* AppDelegate.m in Sources */,
+				350429C72402A16000A31EC9 /* AnyStatement.mm in Sources */,
 				3588944623EA04F700C8F22A /* main.m in Sources */,
 				3588947423EA07D900C8F22A /* NSArray+Functional.m in Sources */,
 				3588943823EA04F500C8F22A /* SceneDelegate.m in Sources */,
